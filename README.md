@@ -1,7 +1,7 @@
 ## 大数据推荐系统-可达鸭
 
 ### 离线命令
-#spark提交命令(线上cdh-s3)：
+#spark提交命令：
 sudo -u hdfs spark-submit --class com.sxkj.offline.TopRecommender \
 --master yarn \
 --deploy-mode cluster \
